@@ -26,6 +26,6 @@ app.post("/", function (req, res){
     res.send(`Olá, ${nome}!`)
 });
 
-app.get('/', (_, res) => res.send('<h1>testetetete</h1>'))
+app.get('/', (_, res) => res.send('<h1>oiii</h1>'))
 
 http.listen(8989, () => console.log('Listening on *:8989'));
